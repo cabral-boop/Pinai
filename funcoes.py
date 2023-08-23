@@ -75,7 +75,7 @@ def enviar_email(destinatario, assunto, corpo):
 
 
 def ia(p):
-    key = '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'
+    key = 'your key'
     openai.api_key = key
     model_engine = 'text-davinci-003'
     prompt = p
